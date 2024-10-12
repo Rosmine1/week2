@@ -1,0 +1,87 @@
+
+/* Body styling */
+
+body{
+    background-color: #eeee;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+/* Elements styling */
+h1, h3{
+
+    text-decoration: underline;
+}
+h2{
+
+    background-color: rgb(95, 132, 184);
+    padding: 5px;
+    width:max-content
+}
+
+/* ------Nav styling----- */
+
+.navbar{
+    background-color: rgb(39,39,111);
+    padding: 0.25em;
+}
+
+.navbar ol{
+    display:flex;
+    list-style-type:none;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+
+}
+.navbar a{
+    Color: white;
+    text-decoration:none;
+    margin-right: 1em;
+    font-size: 20px;
+    box-shadow: 2px 1px #cfbaba;
+
+}
+.navbar a:hover{ 
+    background-color: rgb(118, 111, 111);
+
+}
+/* image styling */
+
+#favoriteThings{
+    display:flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+}
+#favoriteThings li{
+    text-align: center;
+    list-style-type:none;
+}
+/* ------ TABLE STYLING------ */
+
+table{
+
+    background-color: rgb(95, 132, 184);
+    border: 6px solid black;
+}
+thead{
+    background-color: rgb(127, 130, 136);
+    font-size: 24px;
+
+}
+th, tr {
+    text-indent: 20px;
+
+}
+
+/* ----form page stylong------ */
+form{
+    display:flex;
+    flex-direction:column;
+    max-width: 30vw;
+}
+form input{
+    margin-bottom: 1em;
+
+}
+form button{
+    padding:5px
+}
